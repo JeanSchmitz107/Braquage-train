@@ -31,23 +31,15 @@ class Program
         Console.WriteLine("Vous voulez choisir combient de wagon à explorer !!!");
         int Nbr_Wagon = Convert.ToInt32(Console.ReadLine());
         int Nbr_Coffre = 3;
-        int[,] Tbl_Wagon = Nbr_Wagon;
         for (int i_Wagon = 1; i_Wagon <= Nbr_Wagon; i_Wagon++)
         {
+            Console.WriteLine("\n---------------------------------");
             for (int i_Coffre = 1; i_Coffre <= Nbr_Coffre; i_Coffre++)
             {
-                if ()
-                {
-                    Console.WriteLine("\nWagon " + i_Wagon + " - Coffre " + i_Coffre + " inspecté");
-                    
-                }
-                else
-                {
-                    Console.WriteLine("\nWagon " + i_Wagon + " - Coffre " + i_Coffre + " non inspecté");
-                }
+                Console.WriteLine("|  Wagon " + i_Wagon + " - Coffre " + i_Coffre + " inspecté  |");
                 
             }
-            Console.WriteLine("\n");
+            Console.WriteLine("---------------------------------\n              |--|\n              |--|\n");
         }
 
     }
